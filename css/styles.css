@@ -47,12 +47,16 @@ table {
     border-spacing: 0;
 }
 
+/*Here our code starts*/
+
 nav {
+
     box-sizing: border-box;
     height: 43px;
-    padding: 10px 15px 2px;
+    padding: 4px 15px 2px;
     font-family: nyt-franklin, helvetica, arial, sans-serif;
-    border-bottom: 1px #aaa;
+    border-bottom: 1px inset #aaa;
+    /*position: fixed;*/
 }
 
 nav a {
@@ -61,7 +65,7 @@ nav a {
 
 .menu {
     float: left;
-    width: 33%;
+    vertical-align: center;
 }
 
 .menu {
@@ -82,14 +86,12 @@ nav a {
 }
 
 .nyt-logo {
-    float: left;
-    width: 33%;
     text-align: center;
+    vertical-align: center;
 }
 
 .subscribe {
     float: right;
-    width: 25%;
     text-align: right;
 }
 
@@ -104,15 +106,20 @@ nav a {
 }
 
 .subscribe button {
-    background-color: #000;
+    background-color: #333;
     border: none;
     color: #fff;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 600;
     padding: 8px 15px;
-    border-radius: 5px;
+    border-radius: 3px;
     width: 64px;
     height: 32px;
+}
+
+article {
+    width: 601.547
+    border: 10px;
 }
 
 
