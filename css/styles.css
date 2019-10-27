@@ -60,16 +60,11 @@ nav {
     background-color: white;
     width: 100%;
     top: 0;
+    z-index: 1;
 }
 
 nav a {
     color: #000;
-}
-
-.menu {
-    float: left;
-    vertical-align: center;
-    padding-top: 7px;
 }
 
 .menu {
@@ -78,6 +73,8 @@ nav a {
     text-transform: uppercase;
     letter-spacing: 0.7px;
     line-height: 19px;
+    float: left;
+    padding-top: 8px;
 }
 
 .menu a {
@@ -123,9 +120,10 @@ nav a {
 }
 
 article {
-    width: 601.547
     border: 10px;
     font-family: nyt-franklin, helvetica, arial, sans-serif;
+    position: relative;
+    top: 43px;
 }
 
 article header{
@@ -157,3 +155,21 @@ img[class$="one"]{
     width: 100%;
 }
 
+img[class$="three"]{
+    width: 600px;
+    margin-left: 285px;
+}
+
+.main iframe{
+    width: 600px;
+    height: 319px;
+    margin-left: calc(285px + 89.5px);
+}
+
+.inflation{
+    margin: 0 202px 0 202px;
+}
+
+.inflation img{
+    width: 100%;
+}
