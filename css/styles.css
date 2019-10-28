@@ -126,7 +126,9 @@ article {
 }
 
 article header{
-    margin: 25px 202px 43px 202px;
+    margin: 45px auto;
+    width: 100%;
+    max-width: 945px;
 }
 
 h1 {
@@ -137,10 +139,12 @@ h1 {
     font-weight: 700;
     font-style: italic;
     text-align: left;
+    margin-bottom: 16px;
 }
 
-h1, article > p, article > h2, .video {
-    margin: 0 auto;
+h1, article > p, article > h2, .video, .doneby, .three{
+    margin-right: auto;
+    margin-left: auto;
     width: 600px;
 }
 
@@ -149,32 +153,95 @@ h1 span {
     max-width: 390px;
 }
 
-.main div{
-    margin: 0 89.5px 0 89.5px;
+header figcaption{
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    margin: 10px 205px 43px 20px;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    color: #666;
 }
 
-.main div p{
-    margin-left: 285px;
-    width: 600px;
+header figcaption .photographer{
+    color: #888;
+    font-size: 0.8125rem;
 }
 
-img[class$="one"]{
+.doneby{
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+.author{
+    margin-bottom: 15px;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.author a {
+    text-decoration-color: #ccc;
+    color: #333;
+}
+
+.date{
+    float: left;
+    font-weight: 500;
+    color: #333;
+    font-size: 0.8125rem;
+    line-height: 1rem;
+}
+
+.buttons{
+    float: right;
+}
+
+.buttons li{
+    display: inline;
+    margin: 10px;
+}
+
+.buttons a{
+    color: black;
+}
+
+article p{
+    margin-bottom: 15px;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+}
+
+article p a{
+    color: rgb(50, 104, 145);
+}
+
+h2{
+    margin-top: 1px;
+    margin-bottom: 15px;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    color: #333;
+    font-weight: 700;
+}
+
+.one{
     width: 100%;
 }
 
-img[class$="three"]{
-    width: 600px;
-    margin-left: 285px;
+.three{
+    margin-top: 43px;
+    margin-bottom: 43px;
 }
 
-.main iframe{
-    width: 600px;
-    height: 319px;
-    margin-left: calc(285px + 89.5px);
+.three img{
+    width: 100%;
 }
 
 .inflation{
-    margin: 0 202px 0 202px;
+    width: 945px;
+    margin: 15px auto;
 }
 
 .inflation img{
