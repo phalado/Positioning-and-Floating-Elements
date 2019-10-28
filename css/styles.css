@@ -119,10 +119,12 @@ nav a {
     height: 32px;
 }
 
+main {
+    margin-top: 86px;
+}
+
 article {
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
-    position: relative;
-    top: 43px;
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
 }
 
 article header{
@@ -131,8 +133,11 @@ article header{
     max-width: 945px;
 }
 
+.doneby > * {
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
 h1 {
-    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
     color: #121212;
     font-size:30px;
     line-height: 3rem;
@@ -153,15 +158,16 @@ h1 span {
     max-width: 390px;
 }
 
-header figcaption{
-    font-family: nyt-imperial,georgia,'times new roman',times,serif;
-    margin: 10px 205px 43px 20px;
+figcaption{
+    margin: 10px 0 43px 0;
     font-size: 0.9375rem;
     line-height: 1.25rem;
     color: #666;
+    max-width: 720px;
 }
 
-header figcaption .photographer{
+figcaption .caption-author {
+    display: block;
     color: #888;
     font-size: 0.8125rem;
 }
@@ -209,7 +215,6 @@ article p{
     margin-bottom: 15px;
     font-size: 1.25rem;
     line-height: 1.875rem;
-    font-family: nyt-imperial,georgia,'times new roman',times,serif;
 }
 
 article p a{
@@ -221,9 +226,63 @@ h2{
     margin-bottom: 15px;
     font-size: 1.25rem;
     line-height: 1.875rem;
-    font-family: nyt-imperial,georgia,'times new roman',times,serif;
     color: #333;
     font-weight: 700;
+}
+
+h3 {
+    font-size: 1.125rem;
+    line-height: 24px;
+    line-height: 1.5rem;
+    font-weight: 700;
+    font-style: normal;
+}
+
+section figcaption {
+    max-width: 100%;
+}
+
+section span {
+    font-family: nyt-franklin,arial,helvetica,sans-serif;
+    font-size: .875rem;
+}
+
+.image-container {
+    background: url("../images/inflation-945.png") no-repeat;
+    background-size: 945px;
+    overflow: hidden;
+}
+
+.image-container:after {
+    width: 60px;
+    content: '';
+    display: inline-block;
+    height: 1px;
+    margin: 30px 0 20px;
+    background-color: #000;
+}
+
+.image-textbox p {
+    font-family: nyt-franklin,arial,helvetica,sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 300;
+}
+
+.image-textbox span {
+    font-size: 11px;
+    font-weight: 1000;
+}
+
+.image-textbox {
+    float: left;
+    padding-top: 150px;
+    padding-right: 10px;
+    width: 228px;
+}
+
+.image-textbox:nth-child(4n) {
+    padding-right: 0;
 }
 
 .one{
@@ -246,4 +305,40 @@ h2{
 
 .inflation img{
     width: 100%;
+}
+
+.bottom {
+    margin: 0 auto;
+    width: 1200px;
+    overflow: hidden;
+}
+
+.left {
+    float: left;
+    width: 852px;
+}
+
+.right {
+    float: right;
+    width: 315px;
+    margin-left: 30px;
+}
+
+.articles {
+    overflow: hidden;
+}
+
+.article {
+    float: left;
+    width: 272px;
+    margin-right: 18px;
+}
+
+.article:nth-child(3n) {
+    margin-right: 0px;
+}
+
+.article img {
+    height: 181px;
+    width: 272px;
 }
