@@ -308,7 +308,7 @@ section span {
 }
 
 .bottom {
-    margin: 0 auto;
+    margin: 45px auto;
     width: 1200px;
     overflow: hidden;
 }
@@ -324,6 +324,18 @@ section span {
     margin-left: 30px;
 }
 
+h4 {
+    text-decoration: none;
+    color: black;
+    padding: 17px 0 15px;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-weight: 700;
+    max-width: 851.25px;
+    border-top: 1px solid rgb(0, 0, 0);
+}
+
 .articles {
     overflow: hidden;
 }
@@ -331,7 +343,9 @@ section span {
 .article {
     float: left;
     width: 272px;
+    height: 300px;
     margin-right: 18px;
+    margin-bottom: 20px;
 }
 
 .article:nth-child(3n) {
@@ -341,4 +355,25 @@ section span {
 .article img {
     height: 181px;
     width: 272px;
+}
+
+.article figcaption{
+    margin: 3px 0 4px 0;
+    text-align: right;
+    font-family: nyt-cheltenham-small, georgia, "times new roman";
+    font-size: 0.625rem;
+}
+
+h5 {
+    font-size: 1.125rem;
+    line-height: 22px;
+}
+
+.article span{
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.3px;
+    color: rgb(153, 153, 153);
 }
