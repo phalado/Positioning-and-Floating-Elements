@@ -87,7 +87,6 @@ nav a {
 
 .nyt-logo {
     text-align: center;
-    vertical-align: center;
     padding-top: 5px;
 }
 
@@ -103,7 +102,7 @@ nav a {
 
 .subscribe a {
     font-size: 13px;
-    font-weight: 550
+    font-weight: 550;
 }
 
 .subscribe button {
@@ -132,7 +131,7 @@ article header{
     max-width: 945px;
 }
 
-.doneby > * {
+.doneby {
     font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
 
@@ -355,7 +354,7 @@ h4 a {
 }
 
 .article:nth-child(3n) {
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 .article a {
@@ -414,7 +413,7 @@ footer::before {
     content: "";
     display: block;
     height: 1px;
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .footer-top {
