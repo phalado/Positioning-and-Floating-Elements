@@ -217,7 +217,7 @@ article p{
     line-height: 1.875rem;
 }
 
-article p a{
+article p a {
     color: rgb(50, 104, 145);
 }
 
@@ -325,8 +325,6 @@ section span {
 }
 
 h4 {
-    text-decoration: none;
-    color: black;
     padding: 17px 0 15px;
     font-size: 1rem;
     line-height: 1.375rem;
@@ -334,6 +332,11 @@ h4 {
     font-weight: 700;
     max-width: 851.25px;
     border-top: 1px solid rgb(0, 0, 0);
+}
+
+h4 a {
+    text-decoration: none;
+    color: black;
 }
 
 .articles {
@@ -352,6 +355,10 @@ h4 {
     margin-right: 0px;
 }
 
+.article a {
+    text-decoration: none;
+    color: inherit;
+}
 .article img {
     height: 181px;
     width: 272px;
@@ -376,4 +383,127 @@ h5 {
     line-height: 1.25rem;
     letter-spacing: 0.3px;
     color: rgb(153, 153, 153);
+}
+
+.right h5 {
+    border-top: 1px solid rgb(226, 226, 226);
+    padding: 15px 0;
+}
+
+.right h5 a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    margin: 0 auto;
+    width: 1200px;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+footer::before {
+    border-bottom-color: rgb(226, 226, 226);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-top-color: rgb(226, 226, 226);
+    border-top-style: solid;
+    border-top-width: 2px;
+    content: "";
+    display: block;
+    height: 1px;
+    margin-top: 0px;
+}
+
+.footer-top {
+    overflow: hidden;
+    padding-top: 9px;
+}
+
+.footer-top-nyt-logo {
+    float: left;
+    height: 44px;
+}
+
+.footer-top-go-home {
+    float: right;
+    color: rgb(86, 123, 149);
+    font-size: 11px;
+    text-decoration: none;
+    margin-top: 9px;
+}
+
+.footer-columns {
+    overflow: hidden;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    padding-bottom: 9px;
+}
+
+.footer-column {
+    float: left;
+    width: 197px;
+}
+
+h6 {
+    text-transform: uppercase;
+    color: rgb(51, 51, 51);
+    font-size: 13px;
+    font-weight: 700;
+    height: 25px;
+    line-height: 15px;
+}
+
+.footer-column a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 500;
+    height: 23px;
+    line-height: 16px;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+.subscribe-column {
+    border-left: 1px solid rgb(226, 226, 226);
+    padding-left: 15px;
+
+}
+
+.subscribe-links a {
+    font-size: 16px;
+    font-weight: 700;
+    height: 25px;
+    line-height: 15px;
+}
+
+.subscribe-links svg {
+    display: inline-block;
+    height: 13px;
+    width: 13px;
+    margin-right: 7px;
+    vertical-align: middle;
+}
+
+.small-list a {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 500;
+    height: 23px;
+    line-height: 21px;
+}
+
+.footer-bottom {
+    padding-top: 9px;
+    text-align: center;
+}
+
+.footer-bottom a {
+    color: rgb(153, 153, 153);
+    text-decoration: none;
+    font-size: 10.5px;
+    padding: 10px;
 }
