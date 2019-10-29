@@ -50,7 +50,6 @@ table {
 /*Here our code starts*/
 
 nav {
-
     box-sizing: border-box;
     height: 43px;
     padding: 4px 15px 2px;
@@ -158,7 +157,7 @@ h1 span {
     max-width: 390px;
 }
 
-figcaption{
+.figcaption{
     margin: 10px 0 43px 0;
     font-size: 0.9375rem;
     line-height: 1.25rem;
@@ -166,7 +165,7 @@ figcaption{
     max-width: 720px;
 }
 
-figcaption .caption-author {
+.figcaption .caption-author {
     display: block;
     color: #888;
     font-size: 0.8125rem;
@@ -238,13 +237,17 @@ h3 {
     font-style: normal;
 }
 
-section figcaption {
+section .figcaption {
     max-width: 100%;
 }
 
 section span {
     font-family: nyt-franklin,arial,helvetica,sans-serif;
     font-size: .875rem;
+}
+
+iframe{
+    border: none;
 }
 
 .image-container {
@@ -364,7 +367,7 @@ h4 a {
     width: 272px;
 }
 
-.article figcaption{
+.article .figcaption{
     margin: 3px 0 4px 0;
     text-align: right;
     font-family: nyt-cheltenham-small, georgia, "times new roman";
