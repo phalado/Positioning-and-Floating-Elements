@@ -102,7 +102,7 @@ nav a {
 
 .subscribe a {
     font-size: 13px;
-    font-weight: 550;
+    font-weight: 700;
 }
 
 .subscribe button {
@@ -145,7 +145,7 @@ h1 {
     margin-bottom: 16px;
 }
 
-h1, article > p, article > h2, .video, .doneby, .three{
+h1, article > p, h2, .video, .doneby, .three{
     margin-right: auto;
     margin-left: auto;
     width: 600px;
@@ -202,7 +202,7 @@ h1 span {
 
 .buttons li{
     display: inline;
-    margin: 10px;
+    padding: 10px;
 }
 
 .buttons a{
@@ -219,7 +219,7 @@ article p a {
     color: rgb(50, 104, 145);
 }
 
-h2{
+h2 {
     margin-top: 1px;
     margin-bottom: 15px;
     font-size: 1.25rem;
@@ -273,7 +273,7 @@ iframe{
 
 .image-textbox span {
     font-size: 11px;
-    font-weight: 1000;
+    font-weight: 900;
 }
 
 .image-textbox {
@@ -387,12 +387,12 @@ h5 {
     color: rgb(153, 153, 153);
 }
 
-.right h5 {
+.right li {
     border-top: 1px solid rgb(226, 226, 226);
     padding: 15px 0;
 }
 
-.right h5 a {
+.right a {
     text-decoration: none;
     color: black;
 }
