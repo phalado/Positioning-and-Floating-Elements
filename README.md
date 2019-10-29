@@ -11,7 +11,7 @@ Basic HTML5, CSS, github and [Font Awesome v4.7.0](https://fontawesome.com/v4.7.
 
 ## Our project
 
-Our project can be found in https://github.com/phalado/Positioning-and-Floating-Elements, and a live view can be found [here](https://raw.githack.com/phalado/Positioning-and-Floating-Elements/features/index.html).
+Our project can be found in https://github.com/phalado/Positioning-and-Floating-Elements, and a live view can be found [here](https://raw.githack.com/phalado/Positioning-and-Floating-Elements/master/index.html).
 
 ## Contributors
 
