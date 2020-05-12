@@ -17,4 +17,4 @@ Our project can be found in https://github.com/phalado/Positioning-and-Floating-
 
 Eleazar Meza - [GitHub](https://github.com/elshaka)
 
-Raphael Corde - [GitHub](https://github.com/phalado)
+Raphael Cordeiro - [GitHub](https://github.com/phalado)
